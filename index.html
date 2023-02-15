@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minimalist Article</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Raleway:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+      }
+      h1 {
+        font-family: "Josefin Sans", sans-serif;
+        letter-spacing: 2px;
+        font-size: 70px;
+        text-align: center;
+      }
+      h4 {
+        font-family: "Raleway", sans-serif;
+        margin-left: 50px;
+        margin-top: 20px;
+        align-self: flex-start;
+      }
+      ol {
+        display: flex;
+        list-style-position: inside;
+        max-width: 1200px;
+        width: 100%;
+        gap: 20px;
+      }
+      li {
+        background-color: #afafff;
+        border: none;
+        margin: 30px;
+        padding: 40px;
+      }
+      h4{
+        font-size: 1.5em;
+      }
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+      li > a > div {
+        margin-top: 5px;
+        text-align: right;
+      }
+      .column {
+        flex-basis: 50%;
+        padding-left: 20px;
+      }
+      .column > li {
+        font-size: 1.5em;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+      .column > li > a > div > i{
+        font-size:0.8em;
+        font-family:'Courier New', Courier, monospace;
+      }
+      @media (max-width: 768px) {
+        ol {
+          flex-direction: column;
+          gap: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Article Title</h1>
+      <hr width="50%" />
+      <div>
+        <h4>The sub-topics are as follow :</h4>
+        <ol>
+          <div class="column">
+            <li>
+              <a href="priya.html">
+                Preventive diplomacy and early warning mechanism
+                <div><i>- Bhagya Priya</i></div>
+              </a>
+            </li>
+            <li>
+              <a href="siddharth.html">
+                Challenges of preventive diplomacy
+                <div><i>- Siddharth</i></div>
+              </a>
+            </li>
+            <li>
+              <a href="ayush3.html">
+                Role of International Organisation
+                <div><i>- Ayush 3</i></div>
+              </a>
+            </li>
+            <li>
+              <a href="nitin.html">
+                Role of media in promoting peaceful resolution of conflicts
+                <div><i>- Nitin</i></div>
+              </a>
+            </li>
+            <li>
+              <a href="harsha.html">
+                Post conflict reconstruction and peace building
+                <div><i>- Harsha</i></div>
+              </a>
+            </li>
+          </div>
+          <div class="column">
+            <li>
+              <a href="ayush_me.html">
+                Use of human rights based approaches and conflict prevention
+                <div><i>- Ayush</i></div>
+              </a>
+            </li>
+            <li>
+              <a href="lokesh.html"
+                >Mediation
+                <div><i>- Lokesh</i></div></a
+              >
+            </li>
+            <li>
+              <a href="baharul.html">
+                Peaceful resolution of conflicts and mediation
+                <div><i>- Baharul</i></div>
+              </a>
+            </li>
+            <li>
+              <a href="ayush2.html">
+                Political mediation in modern conflict resolution
+                <div><i>- Ayush 2</i></div>
+              </a>
+            </li>
+            <li>
+              <a href="samarth.html"
+                >Other country as a mediator
+                <div><i>- Samarth</i></div></a
+              >
+            </li>
+          </div>
+        </ol>
+      </div>
+    </div>
+  </body>
+</html>
