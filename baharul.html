@@ -33,7 +33,7 @@
 			margin: 0 0 20px 0;
 			text-align: justify;
 		}
-        #reference{
+        .reference{
             color: red;
             font-size: 0.9em;
             text-align: right;
@@ -44,8 +44,24 @@
 			margin-bottom: 30px;
 		}
 		@media screen and (max-width: 480px) {
+			p{
+                font-size: 0.9em;
+            }
+            h1{
+                font-size: 2em;
+            }
+			p > i{
+				font-size: 0.85em;
+			}
+            .byline{
+                font-size: 1.2em;
+            }
+			ul > li > .reference{
+				font-size: 0.7em;
+			}
 			.container {
-				padding: 10px;
+				padding: 27px;
+                
 			}
 		}
 	</style>
@@ -92,7 +108,7 @@ achieving peace between those two nations. The agreement was passed through many
 dialogue and negotiations and all these allowed both the sides to find common ground and reach
 mutually acceptable solutions.
                     </i></p>
-                    <p id="reference">@(The New York Times )</p>
+                    <p class="reference">@(The New York Times )</p>
                 </li>
                 <li>
                     <p><i>
@@ -104,7 +120,7 @@ democratic government in South Africa This outcome was achieved through construc
 and negotiation, which allowed both sides to find common ground and reach mutually acceptable
 solutions.
                     </i></p>
-                    <p id="reference">@(BBC News)</p>
+                    <p class="reference">@(BBC News)</p>
                 </li>
 
             </ul>
