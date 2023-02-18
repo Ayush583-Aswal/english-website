@@ -90,61 +90,39 @@
         max-width: 1200px;
         margin: 0 auto;
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap;
       }
 
-      footer > .container > .group-left {
+      .group-left,
+      .group-right {
         flex-basis: 50%;
       }
 
-      footer > .container > .group-right {
-        flex-basis: 50%;
-      }
-
-      footer > .container > h1 {
+      footer h1 {
         font-size: 2rem;
         margin-bottom: 20px;
         color: #333;
       }
 
-      footer > .container >.group-members {
+      .group-members {
         font-size: 1.3rem;
         margin-bottom: 10px;
         color: #555;
       }
 
-      footer > .container> .group-left > ul {
+      footer ul {
         list-style: none;
         padding: 0;
         margin: 0;
       }
-      footer > .container> .group-right > ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-      }
-      footer > .container> .group-left > ul > li {
+      footer ul li {
         font-size: 1.2rem;
         margin-bottom: 5px;
-        padding:15px;
+        padding: 15px;
         min-width: 330px;
         text-align: center;
-        border:1px solid #333 ;
+        border: 1px solid #333;
         border-radius: 3px;
       }
-      footer > .container> .group-right > ul > li {
-        font-size: 1.2rem;
-        margin-bottom: 5px;
-        padding:15px;
-        min-width: 330px;
-        text-align: center;
-        border:1px solid #333 ;
-        border-radius: 3px;
-      }
-
 
 
       @media (max-width: 768px) {
@@ -172,22 +150,22 @@
           gap: 0;
         }
         footer > .container> .group-left > ul > li {
-        font-size: 0.8em;
+        font-size: 0.7em;
         min-width:250px;
         padding:10px;
       }
       footer > .container> .group-right > ul > li {
-        font-size: 0.8em;
+        font-size: 0.7em;
         min-width:250px;
         padding:10px;
       }
       footer > .container >.group-members {
-        font-size: 1rem;
+        font-size: 0.9rem;
         margin-bottom: 10px;
         color: #555;
       }
       footer > .container > h1 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         margin-bottom: 20px;
         color: #333;
       }
